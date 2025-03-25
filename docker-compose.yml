@@ -1,0 +1,6 @@
+services:
+  idris:
+    build: .
+    tty: true
+    volumes:
+      - .:/opt/app/
